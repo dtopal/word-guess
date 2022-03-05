@@ -20,7 +20,6 @@ class App extends React.Component {
     this.selectLetter = this.selectLetter.bind(this);
     this.setWord = this.setWord.bind(this);
     this.endGame = this.endGame.bind(this);
-    //can I run a function in the construtor?
   }
 
   componentDidMount() {
@@ -60,8 +59,6 @@ class App extends React.Component {
   }
 
   setWord () {
-    //let testWords = ['dragon', 'age', 'mass', 'effect', 'chaos'];
-    //var word = testWords[Math.floor(Math.random() * testWords.length)].toUpperCase();
     var word = Library.getWord();
     var display = [];
     for (let i = 0; i < word.length; i++) {
