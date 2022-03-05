@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Word Guessing Game
+This is a simple word guessing game using React.  Enter guesses using the keyboard
+or by clicking on letters.
+![Guessing letters to win!](./assets/win.gif "You Win!")
+At the moment the game can be refreshed to get a new word or reset the game.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
