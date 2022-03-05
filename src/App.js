@@ -60,10 +60,6 @@ class App extends React.Component {
   }
 
   setWord () {
-    //test
-    // var test = Library.getWord();
-    // console.log(test);
-
     //let testWords = ['dragon', 'age', 'mass', 'effect', 'chaos'];
     //var word = testWords[Math.floor(Math.random() * testWords.length)].toUpperCase();
     var word = Library.getWord();
